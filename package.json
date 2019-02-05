@@ -1,6 +1,6 @@
 {
 	"name": "money-cli",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Exchange Currency Rates using your terminal!",
 	"author": {
 		"name": "Suman Kunwar",
@@ -47,12 +47,12 @@
 		"got": "^9.4.0",
 		"meow": "^5.0.0",
 		"money": "^0.2.0",
+		"figlet": "^1.2.1",
 		"ora": "^3.0.0"
 	},
 	"devDependencies": {
 		"ava": "*",
 		"execa": "*",
-		"figlet": "^1.2.1",
 		"xo": "*"
 	}
 }
