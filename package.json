@@ -1,0 +1,58 @@
+{
+	"name": "money-cli",
+	"version": "1.0.0",
+	"description": "Exchange Currency Rates using your terminal!",
+	"author": {
+		"name": "Suman Kunwar",
+		"email": "sumn2u@gmail.com",
+		"url": "https://humanassistai.com"
+	},
+	"license": "MIT",
+	"repository": "https://github.com/sumn2u/money-cli",
+	"bugs": {
+		"url": "https://github.com/sumn2u/money-cli/issues"
+	},
+	"homepage": "https://github.com/sumn2u/money-cli",
+	"main": "index.js",
+	"scripts": {
+		"postinstall": "node bin/post-install.js",
+		"test": "xo && ava"
+	},
+	"xo": {
+		"rules": {
+			"unicorn/no-process-exit": 0
+		},
+		"esnext": "true"
+	},
+	"bin": {
+		"money": "./bin/index.js"
+	},
+	"keywords": [
+		"money-cli",
+		"currency",
+		"exchange",
+		"rates",
+		"convert",
+		"money",
+		"fixer",
+		"api",
+		"money",
+		"$$$",
+		"currencies",
+		"cli"
+	],
+	"dependencies": {
+		"chalk": "^2.4.1",
+		"conf": "^2.1.0",
+		"got": "^9.4.0",
+		"meow": "^5.0.0",
+		"money": "^0.2.0",
+		"ora": "^3.0.0"
+	},
+	"devDependencies": {
+		"ava": "*",
+		"execa": "*",
+		"figlet": "^1.2.1",
+		"xo": "*"
+	}
+}
