@@ -9,7 +9,6 @@
 
 </p>
 </p>
-<p align="center"><img src="https://rawcdn.githack.com/sumn2u/money-cli/master/money.svg" alt="SVG"></p>
 
 ## Installation
 
